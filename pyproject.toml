@@ -1,0 +1,9 @@
+[project]
+name = "pysyslink-server"
+version = "0.0.1"
+description = "JSON-RPC server to access functionality of PySysLink"
+authors = [ { name="Pello Usabiaga", email="pellousabiaga@gmail.com" } ]
+
+dependencies = [
+    "jsonrpcserver == 5.0.9"
+]
